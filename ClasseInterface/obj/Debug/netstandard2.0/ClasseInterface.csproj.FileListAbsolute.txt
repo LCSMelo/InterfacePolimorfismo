@@ -1,0 +1,8 @@
+C:\Users\39694603870\Backend\Projetos\InterfacePolimorfismo\classeinterface\bin\Debug\netstandard2.0\ClasseInterface.deps.json
+C:\Users\39694603870\Backend\Projetos\InterfacePolimorfismo\classeinterface\bin\Debug\netstandard2.0\ClasseInterface.dll
+C:\Users\39694603870\Backend\Projetos\InterfacePolimorfismo\classeinterface\bin\Debug\netstandard2.0\ClasseInterface.pdb
+C:\Users\39694603870\Backend\Projetos\InterfacePolimorfismo\classeinterface\obj\Debug\netstandard2.0\ClasseInterface.csproj.CoreCompileInputs.cache
+C:\Users\39694603870\Backend\Projetos\InterfacePolimorfismo\classeinterface\obj\Debug\netstandard2.0\ClasseInterface.AssemblyInfoInputs.cache
+C:\Users\39694603870\Backend\Projetos\InterfacePolimorfismo\classeinterface\obj\Debug\netstandard2.0\ClasseInterface.AssemblyInfo.cs
+C:\Users\39694603870\Backend\Projetos\InterfacePolimorfismo\classeinterface\obj\Debug\netstandard2.0\ClasseInterface.dll
+C:\Users\39694603870\Backend\Projetos\InterfacePolimorfismo\classeinterface\obj\Debug\netstandard2.0\ClasseInterface.pdb
