@@ -183,11 +183,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\39694603870\\Backend\\Projetos\\InterfacePolimorfismo\\classeinterface\\ClasseInterface.csproj",
+      "projectUniqueName": "c:\\Users\\39694603870\\Backend\\Projetos\\InterfacePolimorfismo\\ClasseInterface\\ClasseInterface.csproj",
       "projectName": "ClasseInterface",
-      "projectPath": "C:\\Users\\39694603870\\Backend\\Projetos\\InterfacePolimorfismo\\classeinterface\\ClasseInterface.csproj",
+      "projectPath": "c:\\Users\\39694603870\\Backend\\Projetos\\InterfacePolimorfismo\\ClasseInterface\\ClasseInterface.csproj",
       "packagesPath": "C:\\Users\\39694603870\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\39694603870\\Backend\\Projetos\\InterfacePolimorfismo\\classeinterface\\obj\\",
+      "outputPath": "c:\\Users\\39694603870\\Backend\\Projetos\\InterfacePolimorfismo\\ClasseInterface\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

@@ -1,4 +1,5 @@
 ﻿using System;
+using ClasseInterface;
 
 namespace exemplo_interface
 {
@@ -6,7 +7,14 @@ namespace exemplo_interface
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Endereco endereco = new Endereco();
+            endereco.Logradouro = "Rua Nova Esperança";
+            endereco.Numero = "56";
+            endereco.Bairro = "Jardim Alegria";
+
+            PF pf = new PF(10, "Helena", "123456", "helena.santa@uol.com.br", "456123", endereco);
+
+            Console.WriteLine(pf.Cadastro());            
         }
     }
 }

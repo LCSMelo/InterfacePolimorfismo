@@ -2,7 +2,8 @@ namespace ClasseInterface
 {
     interface IAcao
     {
-        string Cadastro();
+        string Cadastro { get; }
+
         string Consulta();     
     }
 }

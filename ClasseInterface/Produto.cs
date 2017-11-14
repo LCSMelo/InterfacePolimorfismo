@@ -20,14 +20,17 @@ namespace ClasseInterface
 
        }
 
-        public string Cadastro()
+        public string Cadastro
         {
-            string composicao = "Id do produto: " + Id +
-                                "\nNome do produto: " + Nome.ToUpper()+
-                                "\nDescrição do produto: " + Descricao + 
-                                "\nPreço do produto: " + string.Format("{c}", Preco);
-                                
-            return "Produto cadastrado com sucesso/n" + composicao;
+            get
+            {
+                string composicao = "Id do produto: " + Id +
+                                    "\nNome do produto: " + Nome.ToUpper() +
+                                    "\nDescrição do produto: " + Descricao +
+                                    "\nPreço do produto: " + string.Format("{0:C2}", Preco);
+
+                return "Produto cadastrado com sucesso\n" + composicao;
+            }
         }
 
         public string Consulta()
