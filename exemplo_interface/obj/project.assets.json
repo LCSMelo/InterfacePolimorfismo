@@ -196,6 +196,16 @@
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
+      },
+      "ClasseInterface/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/ClasseInterface.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ClasseInterface.dll": {}
+        }
       }
     }
   },
@@ -656,10 +666,16 @@
         "netstandard.library.2.0.0.nupkg.sha512",
         "netstandard.library.nuspec"
       ]
+    },
+    "ClasseInterface/1.0.0": {
+      "type": "project",
+      "path": "c:\\Users\\39694603870\\Backend\\Projetos\\InterfacePolimorfismo\\ClasseInterface\\ClasseInterface.csproj",
+      "msbuildProject": "c:\\Users\\39694603870\\Backend\\Projetos\\InterfacePolimorfismo\\ClasseInterface\\ClasseInterface.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.0": [
+      "ClasseInterface >= 1.0.0",
       "Microsoft.NETCore.App >= 2.0.0"
     ]
   },
@@ -670,11 +686,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\39694603870\\Backend\\Projetos\\interfacepolimorfismo\\exemplo_interface\\exemplo_interface.csproj",
+      "projectUniqueName": "C:\\Users\\39694603870\\Backend\\Projetos\\InterfacePolimorfismo\\exemplo_interface\\exemplo_interface.csproj",
       "projectName": "exemplo_interface",
-      "projectPath": "C:\\Users\\39694603870\\Backend\\Projetos\\interfacepolimorfismo\\exemplo_interface\\exemplo_interface.csproj",
+      "projectPath": "C:\\Users\\39694603870\\Backend\\Projetos\\InterfacePolimorfismo\\exemplo_interface\\exemplo_interface.csproj",
       "packagesPath": "C:\\Users\\39694603870\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\39694603870\\Backend\\Projetos\\interfacepolimorfismo\\exemplo_interface\\obj\\",
+      "outputPath": "C:\\Users\\39694603870\\Backend\\Projetos\\InterfacePolimorfismo\\exemplo_interface\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -690,7 +706,11 @@
       },
       "frameworks": {
         "netcoreapp2.0": {
-          "projectReferences": {}
+          "projectReferences": {
+            "c:\\Users\\39694603870\\Backend\\Projetos\\InterfacePolimorfismo\\ClasseInterface\\ClasseInterface.csproj": {
+              "projectPath": "c:\\Users\\39694603870\\Backend\\Projetos\\InterfacePolimorfismo\\ClasseInterface\\ClasseInterface.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
